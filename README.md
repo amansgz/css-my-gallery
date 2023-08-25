@@ -1,7 +1,7 @@
 <h1 align="center">My Gallery</h1>
 
 <div align="center">
-   Solution to a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+  This application/site was created as a submission to <a href="https://devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
 </div>
 
 <div align="center">
