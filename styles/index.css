@@ -1,0 +1,125 @@
+:root {
+  /* COLORS */
+  --clr-dark-gray: #4E5150;
+  --clr-light-gray: #A9A9A9;
+  --clr-background-details : #E5E5E5;
+
+  /* FONT SIZES 
+
+  --font-size-h1: ; 14-24
+  --font-size-text:; 10 -14
+  --font-size-details-number:; 12-18
+  --font-size-details-text:; 12-14
+
+  */
+
+  /* lINE HEIGHTS
+  --line-height-h1: ; 17-29
+  --line-height-text: 12-17
+  --line-height-details-number:;15-22
+    --line-height-details-text:;15-17
+  */
+
+  /* FONT WEIGHTS */
+  --font-weight-bold: 600;
+
+  /* PADDINGS */
+
+
+}
+/*Box sizing rules*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+/* General styles */
+body {
+  max-width: 1440px;
+  margin: auto;
+  font-size: 1.6rem;
+  font-family: var(--ff-body);
+}
+
+figure,
+picture {
+  display: block;
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+ul {
+  list-style: none;
+}
+/* Layout */
+
+
+/*********************** 
+  PROFILE DETAILS
+***********************/
+.profile__photo {
+  width: 100px; /*100 a 156px*/
+  margin: auto;
+}
+.profile__photo img {
+  border-radius: 16px;
+}
+.profile__name {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-bold);
+  color: var(--clr-dark-gray);
+  line-height: var(--line-height-h1);
+  text-align: center;
+}
+.profile__city {
+  font-size: var(--font-size-text);
+  font-weight: var(--font-weight-bold);
+  color: var(--clr-light-gray);
+  text-align: center;
+}
+.profile__details {
+  display: flex;
+  justify-content: center;
+}
+.profile__details li {
+  margin: 1rem;
+  padding: 1em 1.5em;
+  background-color: var(--clr-background-details);
+  border-radius: 12px;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--clr-light-gray);
+}
+.profile__details li span {
+  display: block;
+  color: var(--clr-dark-gray);
+}
+
+/*****************************
+  GALLERY
+*****************************/
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1em;
+}
+.grid-gallery img {
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px 0px #00000026;
+}
