@@ -1,10 +1,18 @@
-<h1 align="center">My Gallery</h1>
+# My Gallery
 
-<div align="center">
-  This application/site was created as a submission to <a href="https://devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
-</div>
+## The challenge
+Create a static page with HTML and CSS following the figma designs.
 
-<div align="center">
+## User story
+I can see a page following the given design
+
+
+## Built With
+
+- CSS
+
+
+<div>
   <h3>
     <a href="https://amansgz.github.io/css-my-gallery/">
       Demo
@@ -22,16 +30,4 @@
 
 ![screenshot](./assets/preview.png)
 
-## The challenge
-
-User story: I can see a page following the given design
-
-
-## Built With
-
-- CSS
-
-## Author
-
-- GitHub [@amansgz](https://github.com/amansgz)
-- DevChallenges [@amansgz](https://devchallenges.io/portfolio/amansgz)
+This application/site was created as a submission to <a href="https://devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
