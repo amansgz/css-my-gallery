@@ -68,13 +68,13 @@ img {
 ul {
   list-style: none;
 }
-/* Layout */
+
 .section-gallery {
   padding: var(--section-block-padding) var(--section-inline-padding);
 }
 
 /*********************** 
-  PROFILE DETAILS
+  PROFILE 
 ***********************/
 .profile__photo {
   width: 100px;
@@ -104,7 +104,7 @@ ul {
   margin: 1.5rem 0;
 }
 .profile__details li {
-  margin: 1rem;
+  margin: .6rem;
   padding: 1em 1.5em;
   background-color: var(--clr-background-details);
   border-radius: 12px;
