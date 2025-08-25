@@ -21,12 +21,16 @@
 }
 
 body {
-  max-width: 1440px;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: var(--ff-primary);
   background-color: var(--clr-background-body);
 }
-
+main {
+  max-width: 1440px;
+  margin: auto;
+}
 /*******************/
 /* GENERAL STYLES */
 /******************/
@@ -139,12 +143,8 @@ img {
 /*  FOOTER */
 /***********/
 .footer {
-  text-align: center;
   padding: 2em;
-}
-.footer__attribution {
-  font-size: var(--font-size-text);
-  font-weight: var(--font-weight-bold);
+  text-align: center;
   color: var(--clr-dark-gray);
 }
 
