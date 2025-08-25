@@ -1,33 +1,39 @@
 # My Gallery
 
-## The challenge
-Create a static page with HTML and CSS following the figma designs.
+This project is a simple photo gallery designed as a challenge to practice the use of CSS Grid.
 
-## User story
-I can see a page following the given design
+---
 
+## Features
 
-## Built With
+- **Responsive Design:** The gallery adapts to different screen sizes.
+- **Flexible Layout:** It uses `grid-template-areas` for a visual and easy-to-understand design structure.
 
-- CSS
+---
 
+## Technologies Used
 
-<div>
-  <h3>
-    <a href="https://amansgz.github.io/css-my-gallery/">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/solutions/xbqaf9bBZZwGhMGIkLaa">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
-      Challenge
-    </a>
-  </h3>
-</div>
+- **HTML5**
+- **CSS3** (with a focus on CSS Grid)
 
-![screenshot](./assets/preview.png)
+---
 
-This application/site was created as a submission to <a href="https://devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
+## Links
+
+- **Live Demo:** [my-gallery](href="https://amansgz.github.io/css-my-gallery/)
+
+---
+
+## How to View the Project
+
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser.
+
+---
+
+## Credits and Acknowledgments
+
+This project was built as a solution to a design challenge from Legacy Devchallenges.
+
+- **Design:** Legacy Devchallenges
+- **Coded by:** @amansgz
