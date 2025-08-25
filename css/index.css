@@ -32,8 +32,9 @@ body {
 /******************/
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /************************/
@@ -87,29 +88,33 @@ img {
 .grid-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
   grid-template-areas:
-    "item1 item2 item2"
-    "item3 item3 item4"
-    "item5 item6 item4";
-  gap: var(--grid-gap);
+    "img-1 img-2 img-2"
+    "img-3 img-3 img-4"
+    "img-5 img-6 img-4";
+  max-width: 1000px;
+  padding: 1rem;
+  margin: auto;
 }
-.grid-gallery .item-1 {
-  grid-area: item1;
+.img-1 {
+  grid-area: img-1;
 }
-.grid-gallery .item-2 {
-  grid-area: item2;
+.img-2 {
+  grid-area: img-2;
 }
-.grid-gallery .item-3 {
-  grid-area: item3;
+.img-3 {
+  grid-area: img-3;
 }
-.grid-gallery .item-4 {
-  grid-area: item4;
+.img-4 {
+  grid-area: img-4;
 }
-.grid-gallery .item-5 {
-  grid-area: item5;
+.img-5 {
+  grid-area: img-5;
 }
-.grid-gallery .item-6 {
-  grid-area: item6;
+.img-6 {
+  grid-area: img-6;
 }
 .grid-gallery img {
   border-radius: 12px;
@@ -136,8 +141,8 @@ img {
 /******************/
 /* MEDIA QUERIES */
 /*****************/
-@media screen and (min-width: 767px) {
-  .profile__photo {
-    width: 156px;
+@media screen and (min-width: 768px) {
+  .grid-gallery {
+    gap: 10px;
   }
 }
