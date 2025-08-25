@@ -57,19 +57,20 @@ img {
   overflow: hidden;
 }
 .profile-name {
+  font-size: clamp(1rem, 2vw, 1.5rem);
   font-weight: bolder;
   color: var(--clr-dark-gray);
   margin: 0.5rem 0;
 }
 .profile-city {
-  font-weight: bolder;
+  font-size: clamp(0.8rem, 1vw, 1rem);
   color: var(--clr-light-gray);
 }
 .stats-details {
   display: flex;
   justify-content: center;
   gap: 5px;
-  padding: 0.5rem;
+  padding-top: 1rem;
   list-style-type: none;
 }
 .stats-details li {
@@ -83,6 +84,8 @@ img {
 }
 .stats-details li span {
   display: block;
+  padding-bottom: 3px;
+  font-weight: bold;
   color: var(--clr-dark-gray);
 }
 
