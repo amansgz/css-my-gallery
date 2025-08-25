@@ -1,81 +1,44 @@
 :root {
   /* COLORS */
-  --clr-dark-gray: #4E5150;
-  --clr-light-gray: #A9A9A9;
-  --clr-background-details : #E5E5E5;
-  --clr-background-body: #FFFFFF;
+  --clr-dark-gray: #4e5150;
+  --clr-light-gray: #a9a9a9;
+  --clr-background-details: #e5e5e5;
+  --clr-background-body: #ffffff;
 
   /* FONT FAMILY */
-  --ff-primary: 'Montserrat', sans-serif;
-
-  /* FONT SIZES */
-  --font-size-h1: clamp(1.4rem, calc(1.4rem + ((1vw - 0.32rem) * 0.956)), 2.4rem);
-  --font-size-text: clamp(1rem, calc(1rem + ((1vw - 0.32rem) * 0.3824)), 1.4rem);
-  --font-size-details-number: clamp(1.2rem, calc(1.2rem + ((1vw - 0.32rem) * 0.5736)), 1.8rem);
-  --font-size-details-text: clamp(1.2rem, calc(1.2rem + ((1vw - 0.32rem) * 0.1912)), 1.4rem);
-
-  /* lINE HEIGHTS */
-  --line-height-h1: clamp(1.7rem, calc(1.7rem + ((1vw - 0.32rem) * 1.1472)), 2.9rem);
-  --line-height-text: clamp(1.2rem, calc(1.2rem + ((1vw - 0.32rem) * 0.478)), 1.7rem);
-  --line-height-details-number: clamp(1.5rem, calc(1.5rem + ((1vw - 0.32rem) * 0.6692)), 2.2rem);
-  --line-height-details-text: clamp(1.5rem, calc(1.5rem + ((1vw - 0.32rem) * 0.1912)), 1.7rem);
-
-  /* FONT WEIGHTS */
-  --font-weight-bold: 500;
-  --font-weight-bolder: 600;
-
-  /* PADDINGS */
-  --section-inline-padding: clamp(1.2rem, calc(1.2rem + ((1vw - 0.32rem) * 1.1472)), 2.4rem);
-  --section-block-padding: clamp(3rem, calc(3rem + ((1vw - 0.32rem) * 2.8681)), 6rem);
-
-  --grid-gap: clamp(1rem, calc(1rem + ((1vw - 0.32rem) * 1.912)), 3rem);
+  --ff-primary: "Montserrat", sans-serif;
 }
-/*Box sizing rules*/
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
 
-/* Remove default margin */
 * {
   margin: 0;
   padding: 0;
 }
-html,
-body {
-  height: 100%;
-}
-html {
-  font-size: 62.5%;
-}
-/* General styles */
+
 body {
   max-width: 1440px;
   margin: auto;
-  font-size: 1.6rem;
   font-family: var(--ff-primary);
   background-color: var(--clr-background-body);
 }
-picture {
-  display: block;
-}
+
+/*******************/
+/* GENERAL STYLES */
+/******************/
 img {
   display: block;
-  width: 100%;
-  object-fit: cover;
-}
-ul {
-  list-style: none;
+  max-width: 100%;
+  height: auto;
 }
 
-.section-gallery {
-  padding: var(--section-block-padding) var(--section-inline-padding);
-}
-
-/*********************** 
-  PROFILE 
-***********************/
+/********************/
+/* ARTICLE PROFILE */
+/*******************/
 .profile__photo {
   width: 100px;
   margin: auto;
@@ -104,7 +67,7 @@ ul {
   margin: 1.5rem 0;
 }
 .profile__details li {
-  margin: .6rem;
+  margin: 0.6rem;
   padding: 1em 1.5em;
   background-color: var(--clr-background-details);
   border-radius: 12px;
@@ -122,16 +85,16 @@ ul {
   color: var(--clr-dark-gray);
 }
 
-/*****************************
-  GALLERY
-*****************************/
+/*************************/
+/* SECTION GRID GALLERY */
+/************************/
 .grid-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: 
-  'item1 item2 item2'
-  'item3 item3 item4'
-  'item5 item6 item4';
+  grid-template-areas:
+    "item1 item2 item2"
+    "item3 item3 item4"
+    "item5 item6 item4";
   gap: var(--grid-gap);
 }
 .grid-gallery .item-1 {
@@ -156,9 +119,14 @@ ul {
   border-radius: 12px;
   box-shadow: 0px 4px 6px 0px #00000026;
 }
-/*****************************
-  FOOTER
-*****************************/
+
+/*****************/
+/* ACCESIBILITY */
+/****************/
+
+/************/
+/*  FOOTER */
+/***********/
 .footer {
   text-align: center;
   padding: 2em;
@@ -169,6 +137,9 @@ ul {
   color: var(--clr-dark-gray);
 }
 
+/******************/
+/* MEDIA QUERIES */
+/*****************/
 @media screen and (min-width: 767px) {
   .profile__photo {
     width: 156px;
