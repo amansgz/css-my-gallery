@@ -21,7 +21,7 @@ This project is a simple photo gallery designed as a challenge to practice the u
 
 ## Links
 
-- **Live Demo:** [my-gallery](href="https://amansgz.github.io/css-my-gallery/)
+- **Live Demo:** [my-gallery](https://amansgz.github.io/css-my-gallery/)
 
 ---
 
