@@ -30,6 +30,7 @@ body {
 main {
   max-width: 1440px;
   margin: auto;
+  padding: 3rem 1rem;
 }
 /*******************/
 /* GENERAL STYLES */
@@ -102,7 +103,6 @@ img {
     "img-3 img-3 img-4"
     "img-5 img-6 img-4";
   max-width: 1000px;
-  padding: 1rem;
   margin: auto;
 }
 .img-1 {
