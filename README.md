@@ -13,10 +13,11 @@ This project is a simple photo gallery designed as a challenge to practice the u
 
 ## Technologies Used
 
+
 - **HTML5**
 - **CSS3** (with a focus on CSS Grid)
-
 ---
+
 
 ## Links
 
