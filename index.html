@@ -1,75 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./assets/devchallenges.png">
-  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/">
-  <!-- FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Gallery | DevChallenges</title>
+    <link rel="icon" href="./assets/devchallenges.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <main>
+      <article class="profile-card">
+        <div class="image-container">
+          <img src="./assets/profilePhoto.png" alt="Rodney Cotton avatar" />
+        </div>
+        <h2 class="profile-name">Rodney Cotton</h2>
+        <p class="profile-city">Helsinkiy, Finland</p>
 
-  <!-- STYLES -->
-  <link rel="stylesheet" href="./styles/index.css">
-  <title>My Gallery | DevChallenges</title>
-</head>
-<body>
-  <main>
-    <section class= "section-gallery">
-      <div>
-        <picture class= "profile__photo">
-          <img src="./assets/profilePhoto.png" alt= "Rodney Cotton avatar">
-        </picture>
-        <h1 class= "profile__name">
-          Rodney Cotton
-        </h1>
-        <p class= "profile__city">
-          Helsinkiy, Finland
-        </p>
-        
-        <ul class= "profile__details">
-          <li>
-            <span>100</span>
-            posts
-          </li>
-          <li>
-            <span>2,242</span> 
-            followers
-          </li>
-          <li>
-            <span>1,432</span> 
-            following
-          </li>
+        <ul class="stats-details">
+          <li><span>100</span>posts</li>
+          <li><span>2,242</span>followers</li>
+          <li><span>1,432</span>following</li>
         </ul>
-      </div>
-  
-      <div class= "grid-gallery">
-        <picture class="item-1">
-          <img src= "./assets/photo1.png" alt= "decoration table">
-        </picture>
-        <picture class= "item-2">
-          <img src= "./assets/photo2.png" alt= "sofa">
-        </picture>
-        <picture class= "item-3">
-          <img src= "./assets/photo3.png" alt= "bathtube">
-        </picture>
-        <picture class= "item-4">
-          <img src= "./assets/photo_4.png" alt= "lamp">
-        </picture>
-        <picture class= "item-5">
-          <img src= "./assets/photo5.png" alt= "plant">
-        </picture>
-        <picture class= "item-6">
-          <img src= "./assets/photo6.png" alt= "wood table">
-        </picture>
-      </div>
-    </section>
-  </main>
-  <footer class= "footer">
-    <small class= "footer__attribution">
-      created by @amansgz - devChallenges.io
-    </small>
-  </footer>
-</body>
+      </article>
+
+      <section>
+        <h2 class="sr-only">Gallery</h2>
+        <div class="grid-gallery">
+          <img class="img-1" src="./assets/photo1.png" alt="decoration table" />
+          <img class="img-2" src="./assets/photo2.png" alt="sofa" />
+          <img class="img-3" src="./assets/photo3.png" alt="bathtube" />
+          <img class="img-4" src="./assets/photo4.png" alt="lamp" />
+          <img class="img-5" src="./assets/photo5.png" alt="plant" />
+          <img class="img-6" src="./assets/photo6.png" alt="wood table" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <small>Coded by @amansgz</small>
+    </footer>
+  </body>
 </html>
